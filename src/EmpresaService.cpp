@@ -21,7 +21,7 @@ EmpresaService::~EmpresaService()
 }
 
 Empresa* EmpresaService::get(){
-    std::ifstream infile("../data/empresa.csv");
+    std::ifstream infile("data/empresa.csv");
     std::string line;
 
     std::string nome;
